@@ -29,7 +29,7 @@ header{
     align-items: center;
 }
 
-header div img{
+header .logo img{
     width: 200px;
     border-radius: 50%;
     }
@@ -107,4 +107,16 @@ footer .redes img{
 
 footer .redes a:hover{
     text-decoration: none;
+}
+@media screen and (max-width:640px) {
+    .main{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    
+    header .logo{
+       width: 100%;    
+    }
 }
