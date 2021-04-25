@@ -7,7 +7,7 @@
 }
 body{
     font-family: Alegreya, sans-serif;
-    background: #000 url('../img/fondo.jpg');
+    background: #E7DFC4 url('../img/fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -102,7 +102,7 @@ footer .descripcion{
 
 footer .redes img{
     width: 40px;
-    margin-right: 70px;
+    margin: auto;
     }
 
 footer .redes a:hover{
@@ -118,9 +118,29 @@ footer .redes a:hover{
        padding-bottom: 20px;
        margin: auto;
     }
+    header .menu a{
+        margin: auto;
+    }
     header .logo img{
         margin-bottom: 50px;
     }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        margin: 5px;
+    }
+    footer .descripcion{
+        order: 2;
+    }
+    footer .redes{
+        order: 1;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    footer .redes img{
+        width: 60px;
+    }
+
 
 }
 @media screen and (max-width:500px){
