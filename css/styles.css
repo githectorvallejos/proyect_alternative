@@ -122,5 +122,19 @@ footer .redes a:hover{
         margin-bottom: 50px;
     }
 
-
+}
+@media screen and (max-width:500px){
+    header{
+        width: 100%;
+        flex-direction: column;
+     }
+     header .menu a{
+        font-size: 13px;
+        padding: 5px 10px;
+        margin: auto;
+     }
+     
+     header .logo img{
+         margin-bottom: 50px;
+     }
 }
