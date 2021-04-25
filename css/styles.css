@@ -22,7 +22,7 @@ body{
 
 header{
     width: 100%;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header .menu a{
     background: #E49AE0; 
     margin-right: 40px;
     overflow: hidden; 
-    padding: 20px 40px; 
+    padding: 10px 20px; 
     border-radius: 35px 0px 35px 0px; 
     -moz-border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 0px 35px 0px; 
@@ -108,15 +108,19 @@ footer .redes img{
 footer .redes a:hover{
     text-decoration: none;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width:800px) {
     .main{
         width: 100%;
     }
     header{
-        width: 100%;
+       width: 100%;
+       flex-direction: column;
+       padding-bottom: 20px;
+       margin: auto;
     }
-    
-    header .logo{
-       width: 100%;    
+    header .logo img{
+        margin-bottom: 50px;
     }
+
+
 }
